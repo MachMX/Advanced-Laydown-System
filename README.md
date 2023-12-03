@@ -72,14 +72,15 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 - ![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
 
 # Showcase
--Under progress. I actually forgor to make showcase pics, lmao. Will add in a while. -low priority
+![20231203144901_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/ca45259d-0e85-4f77-9b51-0a9de04c9cc7)
+
 
 # Addon Recommendation
 You don't need this for the setup to work, but I highly recommend this addon's/extentions!
 
-- [AASEmulator](https://github.com/NotAKidOnSteam/AASEmulator/) a simple in Editor ChilloutVR's Advanced Avatar Settings emulator that let's you test your animation's and your Animator Logic rapidly and easily.
-- [CCK.BaseAnimatorPatch](https://github.com/NotAKidOnSteam/CCK.BaseAnimatorPatch) an alternative for ChilloutVR's base avatar animator that is easily extendable and with spot logic. (Also has some better animation configurations in my opinion :P )
-- [SimpleAAS](https://github.com/NotAKidOnSteam/SimpleAAS/) a simple Unity Animator Controller merger, best used to combine multiple animators into 1! Also incredibly useful when porting avatars from other platforms into ChilloutVR!
+- @NotAKidOnSteam 's [AASEmulator](https://github.com/NotAKidOnSteam/AASEmulator/) a simple in Editor ChilloutVR's Advanced Avatar Settings emulator that let's you test your animation's and your Animator Logic rapidly and easily.
+- @NotAKidOnSteam 's [CCK.BaseAnimatorPatch](https://github.com/NotAKidOnSteam/CCK.BaseAnimatorPatch) an alternative for ChilloutVR's base avatar animator that is easily extendable and with spot logic. (Also has some better animation configurations in my opinion :P )
+- @NotAKidOnSteam 's [SimpleAAS](https://github.com/NotAKidOnSteam/SimpleAAS/) a simple Unity Animator Controller merger, best used to combine multiple animators into 1! Also incredibly useful when porting avatars from other platforms into ChilloutVR!
 - The unfortunately named [RATS](https://github.com/rrazgriz/RATS/releases), or (🐀 RATS - Raz's Animator Tweaks 'n' Stuff 🧀) for it's extention and bugfixes of the Unity Editor, can't remark how useful this thing is, so use it! (specifically the Animator editor, which still hasn't been properly bugfixed by Unity even on Unity 2021...)
 - [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/) repacked by Rrazgriz and the [legend of Brrainz](https://github.com/pardeike/Harmony) for originally making it - without their help modding Unity Games (and Editor) wouldn't be the same as we know it now.
 
