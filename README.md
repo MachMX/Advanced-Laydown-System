@@ -22,10 +22,9 @@ There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommen
 FYI- This way is fast and works with default Unity/CCK and no extentions, but I don't recommend it still due to how Unity Animator Editor can be buggy and not copy Parameters or Parameter Conditions within the Transitions between layers. So be warned.
 - You start by going into Unity inside the included Animator Controller. ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
-- Go and copy the included Layers into your own Avatar's Animator Controller ![Copy Layer Type1 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/47cdeef0-c476-4165-b0cd-84bddd6dfdc5)
+- Go and copy the included Layers into your own Avatar's Animator Controller (Ctrl+C/Ctrl+V) ![Copy Layer Type1 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/47cdeef0-c476-4165-b0cd-84bddd6dfdc5)
 
-- Seriously, make sure you copy both the Laydown and Laydown Compare layers only ![Copy Layer Type1 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7c56e5cb-90a1-4a04-b705-317f902cb85c)
-
+- Seriously, make sure you copy both the Laydown and Laydown Compare layers only (Ctrl+C/Ctrl+V) ![Copy Layer Type1 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7c56e5cb-90a1-4a04-b705-317f902cb85c)
 
 - After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it will may or may not copy these so if you don't see them on your own controller manually add them to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c81aa1b0-65b4-4f6b-ae87-9037b1b52795)
 
