@@ -9,8 +9,8 @@ Setup compatible fro mthe get-go with [Action Menu mod](https://github.com/dakyn
 **Tldr**: Easy laydown for CVR.
 
 # Requirements
-Unity 2021.3.23f1
-[The lastest CCK available](https://developers.abinteractive.net/cck/setup/)
+- Unity 2021.3.23f1
+- [The latest CCK available](https://developers.abinteractive.net/cck/setup/)
 
 # Setup
 ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but honestly it's not really needed for this. Still, many new users might have difficulty understanding or even not knowing where/how to setup this, so I will explain it the best as I can below. There are 3 Main Parts, the [Layer/Parameter Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#layerparameter-setup) - for the Animator setup, the [Advanced Settings Menu Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup) - for the ingame menu connection, and the [Parameter Stream Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#parameter-stream-setup) - for the dynamic Parameters to work.
