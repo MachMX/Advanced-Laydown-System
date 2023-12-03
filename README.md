@@ -2,7 +2,7 @@
 A ChilloutVR's Laydown system. Animator based for maximum compatibility.
 Mainly taken in mind for Desktop, 3-Point Tracking and 4-Point Tracking users to use as an extention for a laydown system that can dynamically change laydown animations, and even have more control for being able to sitdown and standup and for animations to change inbetween certain user defined threshold sets without relying 100% on mods while also being easily modifiable/expandable by anyone.
 
-While this setup doesn't need mods at all, I recommend for 3 Point Tracking and 4 Point Tracking users the use of [Avatar Motion Tweaker](https://github.com/SDraw/ml_mods_cvr/tree/master/ml_amt#avatar-motion-tweaker) ([direct download link - can be outdated](https://github.com/SDraw/ml_mods_cvr/releases/download/r146/ml_amt.dll)) - with the use of the [CVRMelonAssistant](https://github.com/knah/CVRMelonAssistant/releases) a community and Developer moderated mod/plugin repository and mod installer - mainly to fix some IK issues and facilitating the usage of this package, but again not neccesary. On the future will release an even more involved setup that would address not needing mod usage with jsut aniamtor logic.
+While this setup doesn't need mods at all, I recommend for 3 Point Tracking and 4 Point Tracking users the use of [Avatar Motion Tweaker](https://github.com/SDraw/ml_mods_cvr/tree/master/ml_amt#avatar-motion-tweaker) - with the use of the [CVRMelonAssistant](https://github.com/knah/CVRMelonAssistant/releases) a community and Developer moderated mod/plugin repository and mod installer - mainly to fix some IK issues and facilitating the usage of this package, but again not neccesary. On the future will release an even more involved setup that would address not needing mod usage with jsut aniamtor logic.
 
 Setup compatible from the get-go with [Action Menu mod](https://github.com/dakyneko/DakyModsCVR/releases), for an easy Pie-Menu experience (make sure to read how to use it or will not work if you want to use this), also available on the [CVRMelonAssistant](https://github.com/knah/CVRMelonAssistant/releases) collection.
 
@@ -64,6 +64,8 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 - ![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
 
+# Showcase
+-Under progress. I actually forgor to make showcase pics, lmao. Will add in a while. -low priority
 
 # Addon Recommendation
 You don't need this for the setup to work, but I highly recommend this addon's/extentions!
