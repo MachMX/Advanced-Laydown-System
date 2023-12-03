@@ -53,16 +53,16 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 - Under the *CVRAvatar/Advanced Settings there's gonna be a Triangle on the right side of the Inputs section, click on that and jsut copy/paste all of the settings into your own Avatar's Advanced Settings ![Copy 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/27bf9e1a-32d0-4b60-981b-eb515a6d0e28)
 
-![Copy 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3f0ec90c-110a-4d6b-a8de-29627b57ceae)
+- ![Copy 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3f0ec90c-110a-4d6b-a8de-29627b57ceae)
 
 
 ## Parameter Stream Setup
 - Finally for the **#AUpright** parameter to be dynamically updated, we are gonna copy/add the included Parameter Stream from the Exampel Setup included. Just follow the images and you will get it. If you already have a Parameter Stream included on your Avatar, just add the value as it appears into your own Parameter Stream. ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
-![Copy PS1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/d569442e-d7f9-49f5-bb03-a78f5ac1cb60)
+- ![Copy PS1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/d569442e-d7f9-49f5-bb03-a78f5ac1cb60)
 
-![Copy PS2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/e6932562-ecb0-42f6-afbf-52be419e29b2)
+- ![Copy PS2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/e6932562-ecb0-42f6-afbf-52be419e29b2)
 
-![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
+- ![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
 
 
 # Addon Recommendation
