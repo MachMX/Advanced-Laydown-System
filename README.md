@@ -64,6 +64,8 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 - ![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
 
+# Showcase
+-Under progress. I actually forgor to make showcase pics, lmao. Will add in a while. -low priority
 
 # Addon Recommendation
 You don't need this for the setup to work, but I highly recommend this addon's/extentions!
