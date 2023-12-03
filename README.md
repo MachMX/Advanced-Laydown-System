@@ -18,26 +18,32 @@ ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but hon
 ## Layer/Parameter Setup
 There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the RATS Method, but it's not the only way.
 
-### Lazy Method (Not Recommended, can cause issues with Parameter setups)
+### Lazy Method ***(Not Recommended, can cause issues with Parameter setups)***
 FYI- This way is fast and works with default Unity/CCK and no extentions, but I don't recommend it still due to how Unity Animator Editor can be buggy and not copy Parameters or Parameter Conditions within the Transitions between layers. So be warned.
 - You start by going into Unity inside the included Animator Controller. ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
-- Go and copy the included Layers into your own Avatar's Animator Controller ![Copy Layer Type1 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/526ba8c7-4501-4054-bf05-d5d03d13e336)
+- Go and copy the included Layers into your own Avatar's Animator Controller ![Copy Layer Type1 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/47cdeef0-c476-4165-b0cd-84bddd6dfdc5)
 
-- Seriously, make sure you copy both the Laydown and Laydown Compare layers only ![Copy Layer Type1 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/187b5179-616c-4ed1-85fc-9812a89d8b21)
-
-- After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it will may or may not copy these so if you don't see them on your own controller manually add them to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/bb586d15-fea6-426b-9330-fa00f97d0863)
+- Seriously, make sure you copy both the Laydown and Laydown Compare layers only ![Copy Layer Type1 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7c56e5cb-90a1-4a04-b705-317f902cb85c)
 
 
-### Simple AAS Method (Works and easy, can be destructive)
+- After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it will may or may not copy these so if you don't see them on your own controller manually add them to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c81aa1b0-65b4-4f6b-ae87-9037b1b52795)
+
+
+
+### Simple AAS Method ***(Jank but works, can be __destructive)***
+**NOTE: Beware SimpleAAS isn't meant for this usage but it works as a janky way to merge controllers fast.**
+- As a preface the usage for SimpleAAS is not supported by the dev of the extention, *this is pure jank that works*.
 - Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#addon-recommendation) section below).
-
+- **_If you have not used SimpleAAS yet, read how to use it and what it does, otherwise follow my jank. You must have your completed Avatar Controller/ CVR Avatar setup, and also make a backup of such, in the scene, backup scene, export, DO IT._**
 - Make an empty game object on your scene, search for a component called **"SimpleAAS"**, and basically copy the setup on this image step and press *"Compile"*, after a short moment it will merge Controllers ![Copy Layer Type2 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7cad7b18-9cc3-47b1-80f1-d189e911cb75)
 
 - Now with your new Controller, just set it up correctly to your **CVR Avatar's** Animator/Animator Override sections. New controller found inside *Assets\NotAKid\SimpleAAS.Generated\Controllers* normally. ![Copy Layer Type2 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/22430e61-7c6e-4dc2-a460-429d783c5e7b)
 
+- After doing all this confirm your Advanced Avatar Settings are correct, return them into their previous state if neccesary (you can say a way under the [Advanced Avatar Menu Setup Section](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup). Also ***Make sure to delete the new Game Object with the SimpleAAS component, or it will recompile on upload and cause issues. <sup>NAK warning so do so!</sup>
 
-### RATS Method (Recommended, simple, fast, failsafe, nondestructive)
+
+### RATS Method ***(Recommended, simple, fast, failsafe, nondestructive)***
 - Install [RATS](https://github.com/rrazgriz/RATS/releases) Unity Package and [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/) Unity Package into your project, works on Unity Editor 2021 without any issues. (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#addon-recommendation) section below).
 
 - Go to the included Animator Controller ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
