@@ -64,7 +64,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 ## Parameter Stream Setup
 - Finally for the **#AUpright** parameter to be dynamically updated, we are gonna copy/add the included Parameter Stream from the Exampel Setup included. Just follow the images and you will get it. If you already have a Parameter Stream included on your Avatar, just add the value as it appears into your own Parameter Stream. ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
-- ![Copy PS1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/d569442e-d7f9-49f5-bb03-a78f5ac1cb60)
+- ![Copy PS1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c8c0ee64-c4c0-4533-91b3-aa973eafe3b0)
 
 - ![Copy PS2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/e6932562-ecb0-42f6-afbf-52be419e29b2)
 
