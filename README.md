@@ -31,7 +31,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 
 
-### Simple AAS Method ***(Jank but works, can be __destructive)***
+### Simple AAS Method ***(Jank but works, can be destructive READ CAREFULLY)***
 **NOTE: Beware SimpleAAS isn't meant for this usage but it works as a janky way to merge controllers fast.**
 - As a preface the usage for SimpleAAS is not supported by the dev of the extention, *this is pure jank that works*.
 - Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#addon-recommendation) section below).
