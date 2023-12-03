@@ -13,10 +13,10 @@ Setup compatible from the get-go with [Action Menu mod](https://github.com/dakyn
 - [The latest CCK available](https://developers.abinteractive.net/cck/setup/)
 
 # Setup
-ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but honestly it's not really needed for this. Still, many new users might have difficulty understanding or even not knowing where/how to setup this, so I will explain it the best as I can below. There are 3 Main Parts, the [Layer/Parameter Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#layerparameter-setup) - for the Animator setup, the [Advanced Settings Menu Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup) - for the ingame menu connection, and the [Parameter Stream Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#parameter-stream-setup) - for the dynamic Parameters to work.
+ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but honestly it's not really needed for this. Still, many new users might have difficulty understanding or even not knowing where/how to setup this, so I will explain it the best as I can below. There are 3 Main Parts, the [Layer/Parameter Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System#layerparameter-setup) - for the Animator setup, the [Advanced Settings Menu Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup) - for the ingame menu connection, and the[ Parameter Stream Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System#parameter-stream-setup) - for the dynamic Parameters to work.
 
 ## Layer/Parameter Setup
-There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the [RATS Method](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#rats-method-recommended-simple-fast-failsafe-nondestructive), but it's not the only way.
+There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the [RATS Method](https://github.com/MachMX/Sneks-Advanced-Laydown-System#rats-method-recommended-simple-fast-failsafe-nondestructive), but it's not the only way.
 
 ### Lazy Method ***(Not Recommended, can cause issues with Parameter setups)***
 FYI- This way is fast and works with default Unity/CCK and no extentions, but I don't recommend it still due to how Unity Animator Editor can be buggy and not copy Parameters or Parameter Conditions within the Transitions between layers. So be warned.
@@ -33,7 +33,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 ### Simple AAS Method ***(Jank but works, can be destructive READ CAREFULLY)***
 **NOTE: Beware SimpleAAS isn't meant for this usage but it works as a janky way to merge controllers fast.**
 - As a preface the usage for SimpleAAS is not supported by the dev of the extention, *this is pure jank that works*.
-- Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#addon-recommendation) section below).
+- Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System#addon-recommendation) section below).
    Simple AAS on compilation automatically populate the Override Field under the **CVR Avatar** component as well as retarget the existing Animator Controller Override with the newly created Animator Controller. Do make notice of this. ![SimpleAAS](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/2a249bad-359a-401a-a1d5-2b6b23552d23)
 
 - **_If you have not used SimpleAAS yet, read how to use it and what it does, otherwise follow my jank. You must have your completed Avatar Controller/ CVR Avatar setup, and also make a backup of such, in the scene/backup scene/export/DO IT._**
@@ -45,7 +45,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 
 ### RATS Method ***(Recommended, simple, fast, failsafe, nondestructive)***
-- Install [RATS](https://github.com/rrazgriz/RATS/releases) Unity Package and [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/) Unity Package into your project, works on Unity Editor 2021 without any issues. (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#addon-recommendation) section below).
+- Install [RATS](https://github.com/rrazgriz/RATS/releases) Unity Package and [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/) Unity Package into your project, works on Unity Editor 2021 without any issues. (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System#addon-recommendation) section below).
 
 - Go to the included Animator Controller ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
