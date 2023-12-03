@@ -4,7 +4,7 @@ Mainly taken in mind for Desktop, 3-Point Tracking and 4-Point Tracking users to
 
 While this setup doesn't need mods at all, I recommend for 3 Point Tracking and 4 Point Tracking users the use of [Avatar Motion Tweaker](https://github.com/SDraw/ml_mods_cvr/tree/master/ml_amt#avatar-motion-tweaker) ([direct download link - can be outdated](https://github.com/SDraw/ml_mods_cvr/releases/download/r146/ml_amt.dll)) - with the use of the [CVRMelonAssistant](https://github.com/knah/CVRMelonAssistant/releases) a community and Developer moderated mod/plugin repository and mod installer - mainly to fix some IK issues and facilitating the usage of this package, but again not neccesary. On the future will release an even more involved setup that would address not needing mod usage with jsut aniamtor logic.
 
-Setup compatible fro mthe get-go with [Action Menu mod](https://github.com/dakyneko/DakyModsCVR/releases), for an easy Pie Menu experience.
+Setup compatible from the get-go with [Action Menu mod](https://github.com/dakyneko/DakyModsCVR/releases), for an easy Pie-Menu experience (make sure to read how to use it or will not work if you want to use this), also available on the [CVRMelonAssistant](https://github.com/knah/CVRMelonAssistant/releases) collection.
 
 **Tldr**: Easy laydown for CVR.
 
