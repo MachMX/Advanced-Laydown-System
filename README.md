@@ -26,7 +26,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 - Seriously, make sure you copy both the Laydown and Laydown Compare layers only (Ctrl+C/Ctrl+V) ![Copy Layer Type1 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7c56e5cb-90a1-4a04-b705-317f902cb85c)
 
-- After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it will may or may not copy these so if you don't see them on your own controller manually add them to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c81aa1b0-65b4-4f6b-ae87-9037b1b52795)
+- After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it may or may not copy these correctly so if you don't see them on your own controller add them manually to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c81aa1b0-65b4-4f6b-ae87-9037b1b52795)
 
 
 
