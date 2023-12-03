@@ -72,7 +72,19 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 - ![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
 
 # Showcase
+- Desktop usage.
 ![20231203144901_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/ca45259d-0e85-4f77-9b51-0a9de04c9cc7)
+![20231203145000_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/ffe6db0a-0fa1-4f6e-9dc0-e02c680a7c19)
+![20231203145014_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/d0ff8b01-f255-41fd-a42a-f498c6619eb0)
+![20231203145104_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/bc72ee0d-c144-41a9-831b-ba8137c2e009)
+
+- VR Usage 
+- PENDING - Low priority
+
+- Action Menu Compatibility (open #Laydown) ![20231203154440_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/28a925d9-8505-4942-8a9b-95bc97f274cb)
+![20231203154448_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/098d37f7-d64a-4a49-95fa-403171333ff7)
+![20231203154455_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/eb8cbccd-75ff-4be5-a1bb-d831c6f40944)
+![20231203154459_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/63244c0d-5787-42e1-8a37-c810401e0257)
 
 
 # Addon Recommendation
