@@ -35,7 +35,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 **NOTE: Beware SimpleAAS isn't meant for this usage but it works as a janky way to merge controllers fast.**
 - As a preface the usage for SimpleAAS is not supported by the dev of the extention, *this is pure jank that works*.
 - Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#addon-recommendation) section below).
-- **_If you have not used SimpleAAS yet, read how to use it and what it does, otherwise follow my jank. You must have your completed Avatar Controller/ CVR Avatar setup, and also make a backup of such, in the scene, backup scene, export, DO IT._**
+- **_If you have not used SimpleAAS yet, read how to use it and what it does, otherwise follow my jank. You must have your completed Avatar Controller/ CVR Avatar setup, and also make a backup of such, in the scene/backup scene/export/DO IT._**
 - Make an empty game object on your scene, search for a component called **"SimpleAAS"**, and basically copy the setup on this image step and press *"Compile"*, after a short moment it will merge Controllers ![Copy Layer Type2 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7cad7b18-9cc3-47b1-80f1-d189e911cb75)
 
 - Now with your new Controller, just set it up correctly to your **CVR Avatar's** Animator/Animator Override sections. New controller found inside *Assets\NotAKid\SimpleAAS.Generated\Controllers* normally. ![Copy Layer Type2 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/22430e61-7c6e-4dc2-a460-429d783c5e7b)
