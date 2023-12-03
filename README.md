@@ -16,7 +16,7 @@ Setup compatible from the get-go with [Action Menu mod](https://github.com/dakyn
 ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but honestly it's not really needed for this. Still, many new users might have difficulty understanding or even not knowing where/how to setup this, so I will explain it the best as I can below. There are 3 Main Parts, the [Layer/Parameter Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#layerparameter-setup) - for the Animator setup, the [Advanced Settings Menu Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup) - for the ingame menu connection, and the [Parameter Stream Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#parameter-stream-setup) - for the dynamic Parameters to work.
 
 ## Layer/Parameter Setup
-There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the RATS Method, but it's not the only way.
+There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the [RATS Method](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#rats-method-recommended-simple-fast-failsafe-nondestructive), but it's not the only way.
 
 ### Lazy Method ***(Not Recommended, can cause issues with Parameter setups)***
 FYI- This way is fast and works with default Unity/CCK and no extentions, but I don't recommend it still due to how Unity Animator Editor can be buggy and not copy Parameters or Parameter Conditions within the Transitions between layers. So be warned.
@@ -53,7 +53,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 - Paste Layers into your Avatar's Controller ![Copy Layer Type3 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/e360a22e-3427-4a2a-8bb6-e87f21f85226)
 
-- Now it has copied both the layers and parameters
+- Now it has copied both the layers and parameters. Simple as that.
 
 ## Advanced Settings Menu Setup
 - In order to have the ingame recognize the Laydown system, just drag the Example Setup into the scene ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
