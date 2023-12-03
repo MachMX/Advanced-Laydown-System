@@ -56,7 +56,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 ## Advanced Settings Menu Setup
 - In order to have the ingame recognize the Laydown system, just drag the Example Setup into the scene ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
-- Under the *CVRAvatar/Advanced Settings there's gonna be a Triangle on the right side of the Inputs section, click on that and jsut copy/paste all of the settings into your own Avatar's Advanced Settings ![Copy 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/27bf9e1a-32d0-4b60-981b-eb515a6d0e28)
+- Under the *CVRAvatar/Advanced Settings* there's gonna be a Triangle on the right side of the Inputs section, click on that and jsut copy/paste all of the settings into your own Avatar's Advanced Settings ![Copy 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/27bf9e1a-32d0-4b60-981b-eb515a6d0e28)
 
 - ![Copy 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3f0ec90c-110a-4d6b-a8de-29627b57ceae)
 
