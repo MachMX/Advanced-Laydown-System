@@ -15,7 +15,7 @@ You don't need this for the setup to work, but I highly recommend this addon's/e
 - [CCK.BaseAnimatorPatch](https://github.com/NotAKidOnSteam/CCK.BaseAnimatorPatch) an alternative for ChilloutVR's base avatar animator that is easily extendable and with spot logic. (Also has some better animation configurations in my opinion :P )
 - [SimpleAAS](https://github.com/NotAKidOnSteam/SimpleAAS/) a simple Unity Animator Controller merger, best used to combine multiple animators into 1! Also incredibly useful when porting avatars from other platforms into ChilloutVR!
 - The unfortunately named [RATS](https://github.com/rrazgriz/RATS/releases), or (🐀 RATS - Raz's Animator Tweaks 'n' Stuff 🧀) for it's extention and bugfixes of the Unity Editor (specifically the Animator editor, which still hasn't been properly bugfixed by Unity even on Unity 2021...)
--[Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/tag/2.2.2) repacked by Rrazgriz and the [legend of Brrainz](https://github.com/pardeike/Harmony) that without their help modding Unity Games (and Editor) wouldn't be possible as it is now.
+- [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/tag/2.2.2) repacked by Rrazgriz and the [legend of Brrainz](https://github.com/pardeike/Harmony) that without their help modding Unity Games (and Editor) wouldn't be possible as it is now.
 
 
 # Credit's and Inspirations:
