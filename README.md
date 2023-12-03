@@ -40,7 +40,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 
 - Now with your new Controller, just set it up correctly to your **CVR Avatar's** Animator/Animator Override sections. New controller found inside *Assets\NotAKid\SimpleAAS.Generated\Controllers* normally. ![Copy Layer Type2 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/22430e61-7c6e-4dc2-a460-429d783c5e7b)
 
-- After doing all this confirm your Advanced Avatar Settings are correct, return them into their previous state if neccesary (you can say a way under the [Advanced Avatar Menu Setup Section](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup). Also ***Make sure to delete the new Game Object with the SimpleAAS component, or it will recompile on upload and cause issues. <sup>NAK warning so do so!</sup>
+- After doing all this confirm your Advanced Avatar Settings are correct, return them into their previous state if neccesary (you can say a way under the [Advanced Avatar Menu Setup Section](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup). Also ***Make sure to delete the new Game Object with the SimpleAAS component, or it will recompile on upload and cause issues.*** <sup>NAK warning so do so!</sup>
 
 
 ### RATS Method ***(Recommended, simple, fast, failsafe, nondestructive)***
