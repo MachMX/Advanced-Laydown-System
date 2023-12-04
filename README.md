@@ -1,4 +1,4 @@
-# Snek's Advanced Laydown System
+# Advanced Laydown System
 A ChilloutVR's Laydown system. Animator based for maximum compatibility.
 Mainly taken in mind for Desktop, 3-Point Tracking and 4-Point Tracking users to use as an extention for a laydown system that can dynamically change laydown animations, and even have more control for being able to sitdown and standup and for animations to change inbetween certain user defined threshold sets without relying 100% on mods while also being easily modifiable/expandable by anyone.
 
