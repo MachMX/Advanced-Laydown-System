@@ -13,78 +13,78 @@ Setup compatible from the get-go with [Action Menu mod](https://github.com/dakyn
 - [The latest CCK available](https://developers.abinteractive.net/cck/setup/)
 
 # Setup
-ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but honestly it's not really needed for this. Still, many new users might have difficulty understanding or even not knowing where/how to setup this, so I will explain it the best as I can below. There are 3 Main Parts, the [Layer/Parameter Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System#layerparameter-setup) - for the Animator setup, the [Advanced Settings Menu Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System#advanced-settings-menu-setup) - for the ingame menu connection, and the[ Parameter Stream Setup](https://github.com/MachMX/Sneks-Advanced-Laydown-System#parameter-stream-setup) - for the dynamic Parameters to work.
+ChilloutVR's doesn't have an overly involved setup addon such a VRCFury, but honestly it's not really needed for this. Still, many new users might have difficulty understanding or even not knowing where/how to setup this, so I will explain it the best as I can below. There are 3 Main Parts, the [Layer/Parameter Setup](https://github.com/MachMX/Advanced-Laydown-System#layerparameter-setup) - for the Animator setup, the [Advanced Settings Menu Setup](https://github.com/MachMX/Advanced-Laydown-System#advanced-settings-menu-setup) - for the ingame menu connection, and the[ Parameter Stream Setup](https://github.com/MachMX/Advanced-Laydown-System#parameter-stream-setup) - for the dynamic Parameters to work.
 
 ## Layer/Parameter Setup
-There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the [RATS Method](https://github.com/MachMX/Sneks-Advanced-Laydown-System#rats-method-recommended-simple-fast-failsafe-nondestructive), but it's not the only way.
+There's 3 Multiple ways to make the Layer/Parameter setup, I absolutely recommend the [RATS Method](https://github.com/MachMX/Advanced-Laydown-System#rats-method-recommended-simple-fast-failsafe-nondestructive), but it's not the only way.
 
 ### Lazy Method ***(Not Recommended, can cause issues with Parameter setups)***
 FYI- This way is fast and works with default Unity/CCK and no extentions, but I don't recommend it still due to how Unity Animator Editor can be buggy and not copy Parameters or Parameter Conditions within the Transitions between layers. So be warned.
-- You start by going into Unity inside the included Animator Controller. ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
+- You start by going into Unity inside the included Animator Controller. ![Structure](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
-- Go and copy the included Layers into your own Avatar's Animator Controller (Ctrl+C/Ctrl+V) ![Copy Layer Type1 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/47cdeef0-c476-4165-b0cd-84bddd6dfdc5)
+- Go and copy the included Layers into your own Avatar's Animator Controller (Ctrl+C/Ctrl+V) ![Copy Layer Type1 1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/47cdeef0-c476-4165-b0cd-84bddd6dfdc5)
 
-- Seriously, make sure you copy both the Laydown and Laydown Compare layers only (Ctrl+C/Ctrl+V) ![Copy Layer Type1 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7c56e5cb-90a1-4a04-b705-317f902cb85c)
+- Seriously, make sure you copy both the Laydown and Laydown Compare layers only (Ctrl+C/Ctrl+V) ![Copy Layer Type1 2](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/7c56e5cb-90a1-4a04-b705-317f902cb85c)
 
-- After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it may or may not copy these correctly so if you don't see them on your own controller add them manually to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c81aa1b0-65b4-4f6b-ae87-9037b1b52795)
+- After copying them into your Avatar's Animator Controller, make sure the Parameters were also copied over, Unity is dumb and there is a coin flip it may or may not copy these correctly so if you don't see them on your own controller add them manually to make sure you have them right and it should fix most issues if they have the exact same name as exact Parameter type, otherwise try another method. ![Copy Layer Type1 3](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/c81aa1b0-65b4-4f6b-ae87-9037b1b52795)
 
 
 
 ### Simple AAS Method ***(Jank but works, can be destructive READ CAREFULLY)***
 **NOTE: Beware SimpleAAS isn't meant for this usage but it works as a janky way to merge controllers fast.**
 - As a preface the usage for SimpleAAS is not supported by the dev of the extention, *this is pure jank that works*.
-- Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System#addon-recommendation) section below).
-   Simple AAS on compilation automatically populate the Override Field under the **CVR Avatar** component as well as retarget the existing Animator Controller Override with the newly created Animator Controller. Do make notice of this. ![SimpleAAS](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/2a249bad-359a-401a-a1d5-2b6b23552d23)
+- Install [Simple AAS](https://github.com/NotAKidOnSteam/SimpleAAS/) (more info under the [Addons Recommendation](https://github.com/MachMX/Advanced-Laydown-System#addon-recommendation) section below).
+   Simple AAS on compilation automatically populate the Override Field under the **CVR Avatar** component as well as retarget the existing Animator Controller Override with the newly created Animator Controller. Do make notice of this. ![SimpleAAS](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/2a249bad-359a-401a-a1d5-2b6b23552d23)
 
 - **_If you have not used SimpleAAS yet, read how to use it and what it does, otherwise follow my jank. You must have your completed Avatar Controller/ CVR Avatar setup, and also make a backup of such, in the scene/backup scene/export/DO IT._**
-- Make an empty game object on your scene, search for a component called **"SimpleAAS"**, and basically copy the setup on this image step and press *"Compile"*, after a short moment it will merge Controllers ![Copy Layer Type2 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/7cad7b18-9cc3-47b1-80f1-d189e911cb75)
+- Make an empty game object on your scene, search for a component called **"SimpleAAS"**, and basically copy the setup on this image step and press *"Compile"*, after a short moment it will merge Controllers ![Copy Layer Type2 1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/7cad7b18-9cc3-47b1-80f1-d189e911cb75)
 
-- Now with your new Controller, just set it up correctly to your **CVR Avatar's** Animator/Animator Override sections. New controller found inside *Assets\NotAKid\SimpleAAS.Generated\Controllers* normally. ![Copy Layer Type2 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/22430e61-7c6e-4dc2-a460-429d783c5e7b)
+- Now with your new Controller, just set it up correctly to your **CVR Avatar's** Animator/Animator Override sections. New controller found inside *Assets\NotAKid\SimpleAAS.Generated\Controllers* normally. ![Copy Layer Type2 2](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/22430e61-7c6e-4dc2-a460-429d783c5e7b)
 
-- After doing all this confirm your Advanced Avatar Settings are correct, return them into their previous state if neccesary (you can say a way under the [Advanced Avatar Menu Setup Section](https://github.com/MachMX/Sneks-Advanced-Laydown-System/tree/main#advanced-settings-menu-setup). Also ***Make sure to delete the new Game Object with the SimpleAAS component, or it will recompile on upload and cause issues.*** <sup>NAK warning so do so!</sup>
+- After doing all this confirm your Advanced Avatar Settings are correct, return them into their previous state if neccesary (you can say a way under the [Advanced Avatar Menu Setup Section](https://github.com/MachMX/Advanced-Laydown-System/tree/main#advanced-settings-menu-setup). Also ***Make sure to delete the new Game Object with the SimpleAAS component, or it will recompile on upload and cause issues.*** <sup>NAK warning so do so!</sup>
 
 
 ### RATS Method ***(Recommended, simple, fast, failsafe, nondestructive)***
-- Install [RATS](https://github.com/rrazgriz/RATS/releases) Unity Package and [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/) Unity Package into your project, works on Unity Editor 2021 without any issues. (more info under the [Addons Recommendation](https://github.com/MachMX/Sneks-Advanced-Laydown-System#addon-recommendation) section below).
+- Install [RATS](https://github.com/rrazgriz/RATS/releases) Unity Package and [Harmony for Unity Editor!](https://github.com/rrazgriz/harmony-vpm/releases/) Unity Package into your project, works on Unity Editor 2021 without any issues. (more info under the [Addons Recommendation](https://github.com/MachMX/Advanced-Laydown-System#addon-recommendation) section below).
 
-- Go to the included Animator Controller ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
+- Go to the included Animator Controller ![Structure](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
-- Copy Layers from included Controller ![Copy Layer Type3 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/04ea8414-7433-4bc7-be45-313d3b938124)
+- Copy Layers from included Controller ![Copy Layer Type3 1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/04ea8414-7433-4bc7-be45-313d3b938124)
 
-- Paste Layers into your Avatar's Controller ![Copy Layer Type3 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/e360a22e-3427-4a2a-8bb6-e87f21f85226)
+- Paste Layers into your Avatar's Controller ![Copy Layer Type3 2](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/e360a22e-3427-4a2a-8bb6-e87f21f85226)
 
 - Now it has copied both the layers and parameters. Simple as that.
 
 ## Advanced Settings Menu Setup
-- In order to have the ingame recognize the Laydown system, just drag the Example Setup into the scene ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
+- In order to have the ingame recognize the Laydown system, just drag the Example Setup into the scene ![Structure](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
 
-- Under the *CVRAvatar/Advanced Settings* there's gonna be a Triangle on the right side of the Inputs section, click on that and jsut copy/paste all of the settings into your own Avatar's Advanced Settings ![Copy 1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/27bf9e1a-32d0-4b60-981b-eb515a6d0e28)
+- Under the *CVRAvatar/Advanced Settings* there's gonna be a Triangle on the right side of the Inputs section, click on that and jsut copy/paste all of the settings into your own Avatar's Advanced Settings ![Copy 1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/27bf9e1a-32d0-4b60-981b-eb515a6d0e28)
 
-- ![Copy 2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3f0ec90c-110a-4d6b-a8de-29627b57ceae)
+- ![Copy 2](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/3f0ec90c-110a-4d6b-a8de-29627b57ceae)
 
 
 ## Parameter Stream Setup
-- Finally for the **#AUpright** parameter to be dynamically updated, we are gonna copy/add the included Parameter Stream from the Exampel Setup included. Just follow the images and you will get it. If you already have a Parameter Stream included on your Avatar, just add the value as it appears into your own Parameter Stream. ![Structure](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
-- ![Copy PS1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/c8c0ee64-c4c0-4533-91b3-aa973eafe3b0)
+- Finally for the **#AUpright** parameter to be dynamically updated, we are gonna copy/add the included Parameter Stream from the Exampel Setup included. Just follow the images and you will get it. If you already have a Parameter Stream included on your Avatar, just add the value as it appears into your own Parameter Stream. ![Structure](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/c252ada0-6dbf-4393-8d69-5f06c6e60f9f)
+- ![Copy PS1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/c8c0ee64-c4c0-4533-91b3-aa973eafe3b0)
 
-- ![Copy PS2](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/e6932562-ecb0-42f6-afbf-52be419e29b2)
+- ![Copy PS2](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/e6932562-ecb0-42f6-afbf-52be419e29b2)
 
-- ![Copy PS3](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
+- ![Copy PS3](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/3243c8de-1480-43ce-82f7-452f3fa80066)
 
 # Showcase
 - Desktop usage.
-![20231203144901_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/ca45259d-0e85-4f77-9b51-0a9de04c9cc7)
-![20231203145000_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/ffe6db0a-0fa1-4f6e-9dc0-e02c680a7c19)
-![20231203145014_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/d0ff8b01-f255-41fd-a42a-f498c6619eb0)
-![20231203145104_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/bc72ee0d-c144-41a9-831b-ba8137c2e009)
+![20231203144901_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/ca45259d-0e85-4f77-9b51-0a9de04c9cc7)
+![20231203145000_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/ffe6db0a-0fa1-4f6e-9dc0-e02c680a7c19)
+![20231203145014_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/d0ff8b01-f255-41fd-a42a-f498c6619eb0)
+![20231203145104_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/bc72ee0d-c144-41a9-831b-ba8137c2e009)
 
 - VR Usage 
 - PENDING - Low priority
 
-- Action Menu Compatibility (open #Laydown) ![20231203154440_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/28a925d9-8505-4942-8a9b-95bc97f274cb)
-![20231203154448_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/098d37f7-d64a-4a49-95fa-403171333ff7)
-![20231203154455_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/eb8cbccd-75ff-4be5-a1bb-d831c6f40944)
-![20231203154459_1](https://github.com/MachMX/Sneks-Advanced-Laydown-System/assets/15898823/63244c0d-5787-42e1-8a37-c810401e0257)
+- Action Menu Compatibility (open #Laydown) ![20231203154440_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/28a925d9-8505-4942-8a9b-95bc97f274cb)
+![20231203154448_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/098d37f7-d64a-4a49-95fa-403171333ff7)
+![20231203154455_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/eb8cbccd-75ff-4be5-a1bb-d831c6f40944)
+![20231203154459_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/63244c0d-5787-42e1-8a37-c810401e0257)
 
 
 # Addon Recommendation
