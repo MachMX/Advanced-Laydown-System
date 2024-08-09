@@ -79,7 +79,7 @@ FYI- This way is fast and works with default Unity/CCK and no extentions, but I 
 ![20231203145104_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/bc72ee0d-c144-41a9-831b-ba8137c2e009)
 
 - VR Usage 
-- PENDING - Low priority
+- Compatible with 3 and 4 point tracking. best experience is with 4 point tracking tho, since otherwise the legs will rotate with the legs too.
 
 - Action Menu Compatibility (open #Laydown) ![20231203154440_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/28a925d9-8505-4942-8a9b-95bc97f274cb)
 ![20231203154448_1](https://github.com/MachMX/Advanced-Laydown-System/assets/15898823/098d37f7-d64a-4a49-95fa-403171333ff7)
